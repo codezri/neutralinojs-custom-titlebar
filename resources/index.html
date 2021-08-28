@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>NeutralinoJs</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!------------- Custom title bar ------------>
+    <div id="titleBar">
+      <div class="title">Custom Title Bar</div>
+      <div class="buttons">
+        <div class="minBtn" onclick="minimizeBtnClicked()">-</div>
+        <div class="maxRestoreBtn" id="maxRestoreBtn" onclick="maximizeRestoreBtnClicked()">o</div>
+        <div class="closeBtn" onclick="closeBtnClicked()">x</div>
+      </div>
+    </div>
+    <!------------- / Custom title bar ------------>
+    <div id="neutralinoapp">
+      <h1>NeutralinoJs</h1>
+      <div id="info"></div>
+      <br/>
+      <div>
+        <a href="#" onclick="window.myApp.openDocs();">Docs</a> &middot;  
+        <a href="#" onclick="window.myApp.openTutorial();">Tutorial</a>
+      </div>
+    </div>
+    <!-- Neutralino.js client. This file is gitignored, 
+        because `neu update` typically downloads it.
+        Avoid copy-pasting it. 
+        -->
+    <script src="js/neutralino.js"></script>
+    <!-- Your app's source files -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

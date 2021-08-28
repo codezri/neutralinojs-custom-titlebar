@@ -1,0 +1,61 @@
+body, html {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* ----------- Custom title bar ---------- */
+
+#titleBar {
+    background: #eee;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items:center; 
+    cursor: default;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#titleBar .title {
+    padding: 6px;
+}
+
+#titleBar .buttons {
+    background: #bbb;
+    display: flex;
+    height: 100%;
+}
+
+#titleBar .buttons div { 
+    height: 100%;
+    width: 40px;
+    text-align: center;
+    align-items:center; 
+    display: flex;
+        justify-content: center;
+
+}
+
+#titleBar .buttons .closeBtn {
+    background: #661111;
+    color: #fff;
+}
+
+/* ----------- / Custom title bar ---------- */
+
+#neutralinoapp {
+    text-align: center;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+#neutralinoapp h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+#neutralinoapp > div {
+    font-size: 16px;
+    font-weight: normal;
+}
